@@ -23,5 +23,4 @@
  const x = function() {
      console.log('hello')
  };
-
  checkVariable(x);
