@@ -1,11 +1,11 @@
-//sum of natural numbers 
- function sum(num) {
-    if (num>0) {
-    return num + sum (num-1)
- } else { 
-    return num }
- }
- const number=2;
- const result= sum(number);
+// //sum of natural numbers 
+//  function sum(num) {
+//     if (num>0) {
+//     return num + sum (num-1)
+//  } else { 
+//     return num }
+//  }
+//  const number=2;
+//  const result= sum(number);
 
- console.log(`The sum is ${result}`)
+//  console.log(`The sum is ${result}`)

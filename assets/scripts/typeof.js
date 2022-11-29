@@ -10,18 +10,18 @@
 
  // program to check if a variable is of function type
 
- function checkVariable(variable) {
+//  function checkVariable(variable) {
       
-    if(typeof variable === 'function') {
-        console.log('The variable is of function type');
-    }
-    else {
-        console.log('The variable is not of function type');
-    }
-}
+//     if(typeof variable === 'function') {
+//         console.log('The variable is of function type');
+//     }
+//     else {
+//         console.log('The variable is not of function type');
+//     }
+// }
 
- const x = function() {
-     console.log('hello')
- };
+//  const x = function() {
+//      console.log('hello')
+//  };
 
- checkVariable(x);
+//  checkVariable(x);

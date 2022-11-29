@@ -1,15 +1,15 @@
-// program to get a random item from an array
+// // program to get a random item from an array
 
-function getRandomItem(arr) {
+// function getRandomItem(arr) {
 
-    const randomIndex = Math.floor(Math.random() * arr.length);
+//     const randomIndex = Math.floor(Math.random() * arr.length);
 
-    const item = arr[randomIndex];
+//     const item = arr[randomIndex];
 
-    return item;
-}
+//     return item;
+// }
 
-const array = [5, 'kim', 4, 8];
+// const array = [5, 'kim', 4, 8];
 
-const result = getRandomItem(array);
-console.log(result);
+// const result = getRandomItem(array);
+// console.log(result);

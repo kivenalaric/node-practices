@@ -3,12 +3,12 @@
 //console.log(random_num);
 
 // generating random number in range [x, y) and rounds it down to the nearest interger
-function getRandomNum(x, y) {
-    return Math.random() * (y - x) + x;
-  }
-let random_num = getRandomNum(20, 100);
-console.log(random_num);
+// function getRandomNum(x, y) {
+//     return Math.random() * (y - x) + x;
+//   }
+// let random_num = getRandomNum(20, 100);
+// console.log(random_num);
 
-let number = random_num;
-let roundedNumber = Math.floor(number);
-console.log(roundedNumber);
+// let number = random_num;
+// let roundedNumber = Math.floor(number);
+// console.log(roundedNumber);

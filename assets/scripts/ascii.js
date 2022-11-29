@@ -1,4 +1,4 @@
- function checfunctionType(variable) {
-    return 'function' === typeof(variable)
- }
+//  function checfunctionType(variable) {
+//     return 'function' === typeof(variable)
+//  }
 

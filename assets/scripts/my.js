@@ -192,106 +192,106 @@
 // console.log(person.age)
 
 //Factorial
- function factorial(x) {   if (x == 0){
-         return 1;
-     } else {
-         return x *factorial(x-1);
-     }
- }
+//  function factorial(x) {   if (x == 0){
+//          return 1;
+//      } else {
+//          return x *factorial(x-1);
+//      }
+//  }
 
- let num4 = 6;
- if (num4 >= 0) {
-     const result = factorial(num4);
-     console.log(`factorialof ${num4} is ${result}`);
- } else {
-     console.log('Enter a positive num')
- }
+//  let num4 = 6;
+//  if (num4 >= 0) {
+//      const result = factorial(num4);
+//      console.log(`factorialof ${num4} is ${result}`);
+//  } else {
+//      console.log('Enter a positive num')
+//  }
 
-//Find Factors of a num
+// //Find Factors of a num
 
-const num = 10 //input
-console.log(`The Factors of ${num} are:`);
-//loop through 1 to num
-for(let i = 1; i <= num; i++) {
-    //check if a anumber is a factor
-    if (num % i == 0) { //% is used to check if num is exactly divisible
-        console.log(i);
-    }
-}
-
-//check +ve or -ve or zero
-
- let a = -2; 
- if (a > 0) {
-     console.log('a is positive');
- } else if (a == 0){
-     console.log('a is zero')
-     } else {
-     console.log('a is negative')
- }
-
-// //HCF
- let hcf;
- let h = 40;
- let c = 100;
- for (let i = 1; i <= h && i <= c; i++){
-     if ( h % 1 == 0 && c % i == 0) {
-         hcf = i;
-     }
- }
- console.log(`HCF of ${h} and  ${c} is ${hcf}`);
-
-// //simple calc
-// const operator = '+';
-// const num1 = 20;
-// const num2 = 40;
-// let result;
-// if (operator == '+') {
-//     result = num1 + num2;
-// } else if (operator == '-') {
-//     result = num1 - num2;
-// } else if (operator == '*') {
-//     result = num1 * num2;
-// } else {
-//     result = num1 / num2;
+// const num = 10 //input
+// console.log(`The Factors of ${num} are:`);
+// //loop through 1 to num
+// for(let i = 1; i <= num; i++) {
+//     //check if a anumber is a factor
+//     if (num % i == 0) { //% is used to check if num is exactly divisible
+//         console.log(i);
+//     }
 // }
-// console.log(`${num1} ${operator} ${num2} = ${result}`);
 
- //naturalNum 
- function sum(num3) {
-     if(num3 > 0){
-         return num3 + sum (num3-1);
-     } else {
-        return num3
-     }
- }
- const number=2;
- const result= sum(number);
+// //check +ve or -ve or zero
 
- console.log(`The sum is ${result}`)
+//  let a = -2; 
+//  if (a > 0) {
+//      console.log('a is positive');
+//  } else if (a == 0){
+//      console.log('a is zero')
+//      } else {
+//      console.log('a is negative')
+//  }
 
- class Car {
-    constructor(fName, lName) {
-      this.fName = fName;
-      this.lName = lName;
-    }
-  }
+// // //HCF
+//  let hcf;
+//  let h = 40;
+//  let c = 100;
+//  for (let i = 1; i <= h && i <= c; i++){
+//      if ( h % 1 == 0 && c % i == 0) {
+//          hcf = i;
+//      }
+//  }
+//  console.log(`HCF of ${h} and  ${c} is ${hcf}`);
+
+// // //simple calc
+// // const operator = '+';
+// // const num1 = 20;
+// // const num2 = 40;
+// // let result;
+// // if (operator == '+') {
+// //     result = num1 + num2;
+// // } else if (operator == '-') {
+// //     result = num1 - num2;
+// // } else if (operator == '*') {
+// //     result = num1 * num2;
+// // } else {
+// //     result = num1 / num2;
+// // }
+// // console.log(`${num1} ${operator} ${num2} = ${result}`);
+
+//  //naturalNum 
+//  function sum(num3) {
+//      if(num3 > 0){
+//          return num3 + sum (num3-1);
+//      } else {
+//         return num3
+//      }
+//  }
+//  const number=2;
+//  const result= sum(number);
+
+//  console.log(`The sum is ${result}`)
+
+//  class Car {
+//     constructor(fName, lName) {
+//       this.fName = fName;
+//       this.lName = lName;
+//     }
+//   }
   
-  const myCar = new Car("Ford", 'malone');
+//   const myCar = new Car("Ford", 'malone');
 
-  console.log(myCar)
+//   console.log(myCar)
 
-  function difference(setA, setB) {
-    let differenceSet = new Set(setA)
-    for (let i of setB) {
-        differenceSet.delete(i)
-    }
-    return differenceSet
-  }
+//   function difference(setA, setB) {
+//     let differenceSet = new Set(setA)
+//     for (let i of setB) {
+//         differenceSet.delete(i)
+//     }
+//     return differenceSet
+//   }
 
-  let setA = new (['apple','mango','orange']);
-  let setB = new (['grapes', 'apple', 'banana']);
+//   let setA = new (['apple','mango','orange']);
+//   let setB = new (['grapes', 'apple', 'banana']);
 
-  let result = difference(setA, setB);
+//   let result = difference(setA, setB);
 
-  console.log(result);
+//   console.log(result);
