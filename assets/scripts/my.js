@@ -295,3 +295,9 @@ for(let i = 1; i <= num; i++) {
   let result = difference(setA, setB);
 
   console.log(result);
+
+  //
+  characters.charAt(Math.floor(Math.random() * charactersLength));
+const result = Math.random().toString(36).substring(2,7);
+// In toString(36) method, 36 represents base 36. The toString(36) represents digits beyond 9 by letters.
+// The substring(2, 7) method returns five characters.
