@@ -28,9 +28,11 @@ function ageManiach(years) {
     sum = sum + ages[i];
 
 //occurance
-count = 1;
-    if (youngAge == ages[i]) {
+   count = 0;
+    for(let i = 0; i < ages.length; i++){
+      if (youngAge == ages[i]) {
         count++;
+      }
     }
 //average
   average = Math.floor(sum / ages.length);
@@ -53,5 +55,5 @@ count = 1;
   console.log(presentYear);
 }
 
-const years1 = [2002, 1992, 1947, 2000, 1920, 2019, 2006, 2019];
+const years1 = [2002, 1992, 1947, 2020, 2020, 2020, 2000, 1920, 2019, 2006, 2019,2020,2019,];
 ageManiach(years1);
